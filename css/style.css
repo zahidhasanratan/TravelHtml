@@ -1,0 +1,35 @@
+/* Common Styling Started */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul, ol {
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+.container{
+    width: 1148px;
+    margin: 0 auto;
+}
+
+/* Common Styling End */
+
+
+/* Navbar Started */
+
+/* Navbar End */
+
+/* Common Styling End */
+/* Common Styling End */
+
+/* Common Styling End */
+/* Common Styling End */
+
+/* Common Styling End */
+/* Common Styling End */
