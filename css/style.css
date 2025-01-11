@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 /* Common Styling Started */
 *{
     padding: 0;
@@ -22,11 +23,144 @@ h1,h2,h3,h4,h5,h6,p{
 
 
 /* Navbar Started */
+#navbar{
+padding: 15px 0;
+background-color: white;
+position:absolute;
+left: 0;
+top: 36px;
+width: 100%;
+}
+.nav_wrapper{
+    display: flex;
+    align-items: center;
+}
+.logo{
+width: 20%;
 
+}
+.menu{
+width: 60%;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 45px;
+}
+.menu ul li a{
+    color : rgba(3, 110, 138, 1);
+    font-size: 15px;
+    font-weight: 500;
+    text-transform:capitalize ;
+    line-height: normal;
+    font-family: "Montserrat", serif;
+}
+.nav_action{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    justify-content: end;
+}
+.nav_action_item{
+    height: 23px;
+    display: inline-block;
+    width: 23px;
+    border-radius: 50%;
+    border: 1px solid rgba(3, 110, 138, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav_action_item i{
+color: rgba(3, 110, 138, 1);
+font-size: 11px;
+}
 /* Navbar End */
 
-/* Common Styling End */
-/* Common Styling End */
+/* Banner Styling End */
+#banner{
+    background-image: url('../images/Rectangle72.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 257px;
+    padding-bottom: ;
+}
+.banner_wrapper{
+    max-width: 784px;
+    margin: 0 auto;
+}
+#banner .banner_wrapper h1 {
+    color: white;
+    font-size: 89px;
+    line-height: 1.2;
+    font-weight: 700;
+    font-family: "Montserrat", serif;
+    text-transform: capitalize;
+    max-width: 630px;
+}
+.banner_wrapper p{
+margin-top: 24px;
+color: rgba(255, 255, 255, 1);
+font-size: 20px;
+font-weight: 400;
+line-height: 24.38px;
+font-family: "Montserrat", serif;
+}
+.form_inner{
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+    column-gap: 15px;
+}
+.banner_search{
+    width: 428px;
+    border: 1px solid rgba(3, 110, 138, 1);
+    height: 60px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+.banner_search input{
+height: 100%;
+width: 100%;
+border: none;
+outline: none;
+padding-left: 95px;
+font-family: "Montserrat", serif;
+font-size: 20px;
+padding-right: 20px;
+font-weight: 400;
+}
+.banner_search input::placeholder{
+
+    color: rgba(3, 110, 138, 1);
+}
+.banner_search i{
+    color: rgba(3, 110, 138, 1);
+    position: absolute;
+    top: 50%;
+    left: 23px;
+    font-size: 23px;
+    transform: translateY(-50%);
+}   
+.map_circle{
+    height: 58px;
+    width: 58px;
+    border: 1px solid white;
+    background-color: rgba(255, 128, 0, 1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.map_circle i{
+color: wheat;
+font-size: 28px;
+}
+/* Banner Styling End */
 
 /* Common Styling End */
 /* Common Styling End */
