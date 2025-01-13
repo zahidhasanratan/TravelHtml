@@ -18,7 +18,20 @@ h1,h2,h3,h4,h5,h6,p{
     width: 1148px;
     margin: 0 auto;
 }
-
+.sec_subtitle{
+    font-size: 30px;
+    font-weight: 37px;
+    font-weight: 400;
+    font-family: "Montserrat", serif;
+    color: rgba(0, 0, 0, 1);
+}
+.sec_title{
+    color: rgba(3, 110, 138, 1);
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: normal;
+}
 /* Common Styling End */
 
 
@@ -86,7 +99,7 @@ font-size: 11px;
     background-position: center;
     background-size: cover;
     padding-top: 257px;
-    padding-bottom: ;
+    padding-bottom: 200px;
 }
 .banner_wrapper{
     max-width: 784px;
@@ -162,8 +175,158 @@ font-size: 28px;
 }
 /* Banner Styling End */
 
-/* Common Styling End */
-/* Common Styling End */
+/* ======= Destination Started Here =======  */
+#destination{
+    padding-top: 148px;
+    padding-bottom: 90px;
+}
+.destination_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.destination_content{
+    width: 560px;
+}
+.destination_content  .sec_title{
+    margin-top: 31px;
+}
+.paragraph_class{
+    margin-top: 30px;
+color: rgba(0, 0, 0, 1)
+font-size: 20px;
+font-weight: 400;
+line-height: 24.38px;
+font-family: "Montserrat", serif;
+}
+.destination_video{
+    width: 508px;
+    height: 370px;
+    border-radius: 25px;
+    gap: 80px;
+    overflow: hidden;
+    position: relative;
+}
+.destination_video img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.destination_video_icon{
+    cursor: pointer;
+    position: absolute;
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    align-items: center;
+}
+.destination_video_icon i{
+    color: rgba(3, 110, 138, 1);
+    font-size: 22px;
+}
+.book_now{
+    margin-top: 70px;
+    border: 2px solid #036E8A;
+    border-radius: 10px;
+    padding: 54px 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.book_now_btn{
+    padding: 6px 45px;
+    background-color: rgba(255, 128, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Montserrat',serif;
+    line-height: 31px;
+    text-transform: capitalize;
+    border-radius: 15px;
+}
+.location_price{
+    display: flex;
+    align-items: center;
+    gap: 166px;
+}
+.location_price .location {
+    position: relative;
+}
+.location_price .location::after{
+    position: absolute;
+    content: "";
+    top: 10px;
+    right: -80px;
+    height: 96px;
+    background-color: rgba(255, 128, 0, 1);
+    width: 4px;
+}
+.location_price .location h4{
+    font-family: 'Montserrat',serif;
+    color: rgba(3, 110, 138, 1);
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 37px;
+}
+.star_wrapper{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 15px;
+}
+.star_wrapper i{
+    color: rgba(255, 128, 0, 1);
+    width: 28px;
+    height: 28px;
 
-/* Common Styling End */
-/* Common Styling End */
+}
+
+.star_wrapper i:last-child{
+    opacity: 0.5;
+
+}
+.price .paragraph_class{
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    font-family: 'Montserrat',serif;
+}
+.price span{
+    color: rgba(3, 110, 138, 1);
+    font-weight: 700;
+    font-size: 60px;
+    line-height: normal;
+    font-family: 'Montserrat',serif;
+}
+
+
+ /* ======= Destination Ended Here =========  */
+
+ /* ======= Special Package Started Here =======  */
+
+/* ======= Special Package Ended Here =========  */
+
+ /* ======= Featured Started Here =======  */
+
+/* ======= Featured Ended Here =========  */
+
+/* ======= Destination 2 Started Here =======  */
+
+ /* ======= Destination 2 Ended Here =========  */
+ /* ======= Most Destination 2 Started Here =======  */
+
+ /* ======= Most Destination 2 Ended Here =========  */
+ /* ======= Counter Started Here =======  */
+
+ /* ======= Counter Ended Here =========  */
+ /* ======= NewsLatter Started Here =======  */
+
+ /* ======= NewsLatter Ended Here =========  */
